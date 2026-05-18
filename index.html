@@ -49,8 +49,8 @@ img{display:block}
 /* ── NAV ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 4rem;height:80px;background:rgba(14,12,10,0.95);backdrop-filter:blur(12px);border-bottom:.5px solid var(--border)}
 .nav-brand{display:flex;align-items:center;gap:1.2rem}
-.nav-brand-photo{width:42px;height:42px;border-radius:50%;overflow:hidden;border:1px solid var(--border-strong);flex-shrink:0}
-.nav-brand-photo img{width:100%;height:100%;object-fit:cover;object-position:top center}
+.nav-brand-photo{height:46px;width:auto;flex-shrink:0;display:flex;align-items:center}
+.nav-brand-photo img{height:100%;width:auto;object-fit:contain;display:block}
 .nav-brand-text{display:flex;flex-direction:column;gap:1px}
 .nav-brand-name{font-family:"Cormorant Garamond",serif;font-size:19px;font-weight:600;line-height:1;color:var(--text-primary)}
 .nav-brand-role{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
@@ -310,7 +310,7 @@ footer{background:var(--bg-mid);border-top:.5px solid var(--border);padding:3rem
 <nav>
   <div class="nav-brand">
     <div class="nav-brand-photo">
-      <img src="images/omnr-logo.png" alt="Rupali Mishra"/>
+      <img src="images/omnr-logo.png" alt="Om Shanti N R Construction"/>
     </div>
     <div class="nav-brand-text">
       <div class="nav-brand-name">Rupali Mishra</div>
