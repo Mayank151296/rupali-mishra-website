@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Image backups
+images/*.bak
+
+# Python build artifacts
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+node_modules/
